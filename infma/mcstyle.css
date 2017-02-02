@@ -1,0 +1,227 @@
+/* Common page regions*/
+
+
+#enclosure{
+    width: 960px;
+    margin: 0 auto;   
+}
+
+#siteheader{
+    background-color: #016696;
+    padding-top: 10px;
+    padding-bottom: 0.5px;
+}
+
+#sitefooter{
+    background-color: #016696;
+    height: 32px;
+    clear: both;
+}
+
+#sitefooter p{
+    color: #ffffff;
+}
+
+/* Primary navigation bar */
+
+#globalnav{
+    background-color: #ffffff;
+    height: 45px;
+    border-bottom: 2px solid #016696;
+}
+
+#globalnav ul{
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+    background-color: #ffffff;
+    height: 45px;
+}
+
+#globalnav ul li{
+    float: left;
+    list-style-type: none;
+    height: 45px;
+}
+
+#globalnav ul li a{
+    font-size: 1.5em;
+    display: block;
+    color: #016696;
+    text-decoration: none;
+    padding: 15px 10px 15px 11px;
+    height: 15px
+}
+
+#globalnav a:hover, #localnav a:hover, #breadcrumbs a:hover{
+    color: #ffffff;
+}
+
+#globalnav li:hover, #localnav li:hover, #breadcrumbs a:hover{
+    background-color: #99cf35;
+}
+
+.imagelogo{
+    float: left;
+    padding: 3em 1em 3.8em 2em;
+}
+
+/*Secondary navigation bar*/
+
+
+#localnav ul{
+    margin-top: 18px;
+    padding-left: 2%;
+}
+
+#localnav ul li{
+    list-style-type: none;
+    color: #99cf35;
+}
+
+#localnav ul li a{
+    display: block;
+    padding: 0.25em;
+    text-decoration: none;
+    color: #016696;
+}
+
+/* Common links */
+
+#sitecommonlinks a.presentpage{
+    text-decoration: underline;
+}
+
+#sitecommonlinks a:hover{
+    color: #99cf35;    
+}
+
+#sitecommonlinks a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-bottom: 3px;
+    padding-top: 9px;
+}
+
+#sitecommonlinks ul{
+    margin-top: 0px;
+}
+
+#sitecommonlinks li{
+    display: inline;
+    list-style: none;
+    margin-right: 30px
+}
+
+#sitecommonlinks{
+    padding-top: 9px;
+    text-align: left;
+    margin-left: 38em;
+}
+
+/* Two column page region */
+
+#columnholder{
+    overflow: hidden;
+    background: #ffffff url(images/leftcolumn.gif) repeat-y ;
+    width: 100%;
+}
+
+#materialtwocolpage{
+    width: 80%;
+    float: right;
+}
+
+#localnav{
+    float: left;  
+    width: 17.5%;
+}
+
+/*Breadcrumbs*/
+
+#breadcrumbs a{
+    color: #016696;
+}
+
+/* User defined classes */
+
+
+
+/* Current page */
+
+a.presentpage{
+    background-color: #99cf35;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Headings */
+
+h1.logo{
+    font-family: 'century gothic', arial, sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+/* slogan */
+
+h2.slogan{
+    font-family: 'century gothic', arial, sans-serif;
+    letter-spacing: 0.2em;
+    margin: 0 0 1.5em 1.5em;
+    color: #ffffff;
+}
+
+/*Home page Welcome message*/
+
+h2.welcomemessage{
+    border-bottom: 2px solid #016696;
+    padding-left: 30%;
+}
+
+/*projects description*/
+
+.constructionsite1{
+    float: left;
+    padding-right: 15px;
+}
+
+.constructionsite2{
+    float: left;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+h3{
+    clear: both;
+    padding-top: 20px;
+}
+/*Page footer copyright paragraph*/
+
+#sitefooter p{
+    width: 280px;
+    float: left;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+#material ul li{
+    list-style-type: square;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
